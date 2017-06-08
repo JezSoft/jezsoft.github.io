@@ -24,10 +24,15 @@
   <script>
 		var map;
 		function initMap() {
-		map = new google.maps.Map(document.getElementById('map'), {
-			  center: {lat: -34.397, lng: 150.644},
-			  zoom: 8
-			})
+			map = new google.maps.Map(document.getElementById('map'), {
+				  center: {lat: 39.751571, lng: -104.990832},
+				  zoom: 15
+				});
+			
+			var layerNeigh = new google.maps.KmlLayer({
+				url: 'https://JezSoft.github.io/denverNeighborhoods.kml',
+				map: map
+			});
 		}
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSXYNkU1ea1fq9LK-EC4Bp6GJbV-Dm-OI&callback=initMap"
