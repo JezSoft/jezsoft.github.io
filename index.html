@@ -27,10 +27,11 @@
 			 $.ajax({
 			  type: "GET",
 			  dataType: "xml",
-			  url: "https://JezSoft.github.io/denverNeighborhoodsFixed.kml",
+			  url: "https://JezSoft.github.io/denverNeighborhoods.xml",
 			  success: function(xml){
-					var xmlDoc = $.parseXML(xml);
-					alert("Done");				
+				$(xml).find('Folder Placemark MultiGeometry Polygon outerBoundaryIs LinearRing').each(function(index){
+					alert($(this).find('coordinates').text());
+				});
 			  },
 			  error: function (status, error){
 				alert("error");
