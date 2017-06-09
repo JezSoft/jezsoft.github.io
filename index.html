@@ -29,6 +29,12 @@
 			  dataType: "xml",
 			  url: "https://JezSoft.github.io/denverNeighborhoodsFixed.kml",
 			  success: function(xml){
+				$(xml).find('Placemark').each(function(){
+                    $(this).find("MultiGeometry").each(function(){
+                        var poly = this;
+                        alert(name);
+                    });
+                });
 				alert("done");
 			  }
 			});
