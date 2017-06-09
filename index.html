@@ -18,6 +18,7 @@
       }
     </style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://JezSoft.github.io/geoxml3.js"></script>
 </head>
 <body>
 	<div id="map">
@@ -29,14 +30,13 @@
 			  dataType: "xml",
 			  url: "https://JezSoft.github.io/denverNeighborhoodsFixed.kml",
 			  success: function(xml){
-				$(xml).find('Placemark').each(function(){
-                    $(this).find("MultiGeometry").each(function(){
-                        var poly = this;
-                        alert(name);
-                    });
-                });
-				alert("done");
+				
+				
 			  }
+			  
+			  var myParser = new geoXML3.parser({map: map});
+				myParser.parse('https://JezSoft.github.io/denverNeighborhoodsFixed.kml');
+				alert("done");
 			});
 		});
   
