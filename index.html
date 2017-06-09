@@ -18,7 +18,6 @@
       }
     </style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://JezSoft.github.io/geoxml3.js"></script>
 </head>
 <body>
 	<div id="map">
@@ -28,10 +27,13 @@
 			 $.ajax({
 			  type: "GET",
 			  dataType: "xml",
-			  url: "https://JezSoft.github.io/denverNeighborhoodsFixed.kml",
+			  url: "https://JezSoft.github.io/denverNeighborhoods.xml",
 			  success: function(xml){
-				
-				
+					var xmlDoc = $.parseXML(xml);
+					alert("Done");				
+			  },
+			  error: function (status, error){
+				alert("error");
 			  }
 			});
 			
@@ -53,13 +55,6 @@
 				url: 'https://JezSoft.github.io/2017PassportExport.kml',
 				map: map
 			});
-			
-			var myParser = new geoXML3.parser({map: map, afterParse: addMapData});
-			var parsed = myParser.parse('https://JezSoft.github.io/denverNeighborhoodsFixed.kml');
-		}
-		
-		function addMapData(data){
-			alert("Done");
 		}
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSXYNkU1ea1fq9LK-EC4Bp6GJbV-Dm-OI&callback=initMap"
