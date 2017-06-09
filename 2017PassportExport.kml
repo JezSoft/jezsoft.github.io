@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2017 Denver Passport Map</name>
+	<Style id="icon-1899-0288D1-normal">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-highlight">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>2017 Summer Denver Map</name>
+		<Placemark>
+			<name>Ace Eat Serve</name>
+			<address>501 E 17th Ave Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)800-7705<br>Address: 501 E 17th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: aceeatserve.com<br>2-for-1 Offer: Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).<br>Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)800-7705</value>
+				</Data>
+				<Data name="Address">
+					<value>501 E 17th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>aceeatserve.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).
+Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9807247,39.7435177,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Adelitas Cocina y Cantina / Palenque Mezcaleria</name>
+			<address>1294 S Broadway Denver CO 80210</address>
+			<description><![CDATA[Phone #: (303)778-1294<br>Address: 1294 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: adelitasdenver.com<br>2-for-1 Offer: the Fortaleza Coin, our staff's favorite margarita. This offer is good at Adelitas Cocina y Cantina AND Palenque Mezcaleria.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)778-1294</value>
+				</Data>
+				<Data name="Address">
+					<value>1294 S Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>adelitasdenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>the Fortaleza Coin, our staff&apos;s favorite margarita. This offer is good at Adelitas Cocina y Cantina AND Palenque Mezcaleria.</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9873992,39.6933122,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Avelina</name>
+			<address>1550 17th St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (720)904-6711<br>Address: 1550 17th St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: avelinadenver.com<br>2-for-1 Offer: Speciality cocktails $12 and under. <br>Glass of red or white wine $12 and under.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)904-6711</value>
+				</Data>
+				<Data name="Address">
+					<value>1550 17th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>avelinadenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Speciality cocktails $12 and under. 
+Glass of red or white wine $12 and under.</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9989223,39.7516776,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Bar Max</name>
+			<address>2412 E Colfax Ave Denver CO 80206</address>
+			<description><![CDATA[Phone #: (303)333-0003<br>Address: 2412 E Colfax Ave<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: barmax.co<br>2-for-1 Offer: Colfax Mule or House Made Sangria]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)333-0003</value>
+				</Data>
+				<Data name="Address">
+					<value>2412 E Colfax Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>barmax.co</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Colfax Mule or House Made Sangria</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9584182,39.7399511,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Bear Creek Distillery</name>
+			<address>1879 S Acoma St Denver CO 80223</address>
+			<description><![CDATA[Phone #: (303)955-4638<br>Address: 1879 S Acoma St<br>City: Denver<br>State: CO<br>Zip Code: 80223<br>Website URL: bearcreekdistillery.com<br>2-for-1 Offer: Handcrafted Cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)955-4638</value>
+				</Data>
+				<Data name="Address">
+					<value>1879 S Acoma St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80223</value>
+				</Data>
+				<Data name="Website URL">
+					<value>bearcreekdistillery.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Handcrafted Cocktails</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9891306,39.6825725,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Bellwether</name>
+			<address>5216 E Colfax Ave Denver CO 80220</address>
+			<description><![CDATA[Phone #: (720) 398-9251<br>Address: 5216 E Colfax Ave<br>City: Denver<br>State: CO<br>Zip Code: 80220<br>Website URL: bellwetherdenver.com<br>2-for-1 Offer: Nitro Old Fashioned or Bartender's Choice]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 398-9251</value>
+				</Data>
+				<Data name="Address">
+					<value>5216 E Colfax Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80220</value>
+				</Data>
+				<Data name="Website URL">
+					<value>bellwetherdenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Nitro Old Fashioned or Bartender&apos;s Choice</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9265478,39.739923,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Black Project Spontaneous &amp; Wild Ales</name>
+			<address>1290 S Broadway Denver CO 80210</address>
+			<description><![CDATA[Phone #: (720)900-5551<br>Address: 1290 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: blackprojectbeer.com<br>2-for-1 Offer: IPAs]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)900-5551</value>
+				</Data>
+				<Data name="Address">
+					<value>1290 S Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>blackprojectbeer.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>IPAs</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9873968,39.6933924,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Blue Island Oyster Bar</name>
+			<address>2625 E 2nd St Denver CO 80206</address>
+			<description><![CDATA[Phone #: (303) 333-2462<br>Address: 2625 E 2nd St<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: blueislandoysterbar.com<br>2-for-1 Offer: Summer Negroni or Rose Cooler]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303) 333-2462</value>
+				</Data>
+				<Data name="Address">
+					<value>2625 E 2nd St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>blueislandoysterbar.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Summer Negroni or Rose Cooler</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9568074,39.7196643,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Brazen</name>
+			<address>4450 W 38th Ave Denver CO 80212</address>
+			<description><![CDATA[Phone #: (720) 638-1242<br>Address: 4450 W 38th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80212<br>Website URL: brazendenver.com<br>2-for-1 Offer: Tennyson Sour or Paloma]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 638-1242</value>
+				</Data>
+				<Data name="Address">
+					<value>4450 W 38th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80212</value>
+				</Data>
+				<Data name="Website URL">
+					<value>brazendenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Tennyson Sour or Paloma</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0448564,39.7691711,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Briar Common Brewery + Eatery</name>
+			<address>2298 Clay St Denver CO 80211</address>
+			<description><![CDATA[Phone #: (720)512-3894<br>Address: 2298 Clay St<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: briarcommon.com<br>2-for-1 Offer: House Beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)512-3894</value>
+				</Data>
+				<Data name="Address">
+					<value>2298 Clay St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>briarcommon.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>House Beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0203594,39.7510677,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Call to Arms Brewing Co.</name>
+			<address>4526 Tennyson St Denver CO 80212</address>
+			<description><![CDATA[Phone #: (720)328-8258<br>Address: 4526 Tennyson St<br>City: Denver<br>State: CO<br>Zip Code: 80212<br>Website URL: calltoarmsbrewing.com<br>2-for-1 Offer: Any Core Pint]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)328-8258</value>
+				</Data>
+				<Data name="Address">
+					<value>4526 Tennyson St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80212</value>
+				</Data>
+				<Data name="Website URL">
+					<value>calltoarmsbrewing.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Core Pint</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.043629,39.77887,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Carbon Cafe &amp; Bar</name>
+			<address>1553 Platte St #130 Denver CO 80202</address>
+			<description><![CDATA[Phone #: (720) 428-8565<br>Address: 1553 Platte St #130<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: carbondenver.com<br>2-for-1 Offer: Speciality Cocktail]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 428-8565</value>
+				</Data>
+				<Data name="Address">
+					<value>1553 Platte St #130</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>carbondenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Speciality Cocktail</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.008508,39.7574147,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Cerebral Brewing</name>
+			<address>1477 Monroe St Denver CO 80206</address>
+			<description><![CDATA[Phone #: (303)927-7365<br>Address: 1477 Monroe St<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: cerebralbrewing.com<br>2-for-1 Offer: Core Beers]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)927-7365</value>
+				</Data>
+				<Data name="Address">
+					<value>1477 Monroe St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>cerebralbrewing.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Core Beers</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9450804,39.7397522,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Concourse</name>
+			<address>10195 E. 29th Dr Denver CO 80238</address>
+			<description><![CDATA[Phone #: (720) 550-6934<br>Address: 10195 E. 29th Dr<br>City: Denver<br>State: CO<br>Zip Code: 80238<br>Website URL: concoursedenver.com<br>2-for-1 Offer: Specialty Cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 550-6934</value>
+				</Data>
+				<Data name="Address">
+					<value>10195 E. 29th Dr</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80238</value>
+				</Data>
+				<Data name="Website URL">
+					<value>concoursedenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Specialty Cocktails</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.8691102,39.7594052,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Cho77</name>
+			<address>42 S Broadway Denver CO 80209</address>
+			<description><![CDATA[Phone #: (720)638-8179<br>Address: 42 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80209<br>Website URL: cho77.com<br>2-for-1 Offer: Signature Cocktail: Drunken Monk or Sake: Black & Gold - Junmai Shu (Carafe)]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)638-8179</value>
+				</Data>
+				<Data name="Address">
+					<value>42 S Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80209</value>
+				</Data>
+				<Data name="Website URL">
+					<value>cho77.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Signature Cocktail: Drunken Monk or Sake: Black &amp; Gold - Junmai Shu (Carafe)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9871923,39.7158271,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Chowder Room</name>
+			<address>560 S Broadway Denver CO 80209</address>
+			<description><![CDATA[Phone #: (303)777-3474<br>Address: 560 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80209<br>Website URL: chowderroom.com<br>2-for-1 Offer: What Hey Yes, Nor Easter, Dark and Stormy, Cherry Ginger Fizz, Shark Bit, Dream of the Sradine Fisherman's Wife]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)777-3474</value>
+				</Data>
+				<Data name="Address">
+					<value>560 S Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80209</value>
+				</Data>
+				<Data name="Website URL">
+					<value>chowderroom.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>What Hey Yes, Nor Easter, Dark and Stormy, Cherry Ginger Fizz, Shark Bit, Dream of the Sradine Fisherman&apos;s Wife</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9872871,39.7064672,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>CLYDE</name>
+			<address>112 E 8th Ave Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)861-4112<br>Address: 112 E 8th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: milehighclyde.com<br>2-for-1 Offer: Russian Interference or Et Tu, Brute?]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)861-4112</value>
+				</Data>
+				<Data name="Address">
+					<value>112 E 8th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>milehighclyde.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Russian Interference or Et Tu, Brute?</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.985802,39.7288909,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Colorado Cider Company</name>
+			<address>2650 W 2nd Ave #10 Denver CO 80219</address>
+			<description><![CDATA[Phone #: (303)759-3560<br>Address: 2650 W 2nd Ave #10<br>City: Denver<br>State: CO<br>Zip Code: 80219<br>Website URL: coloradocider.com<br>2-for-1 Offer: Glass of cider equal or lesser value]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)759-3560</value>
+				</Data>
+				<Data name="Address">
+					<value>2650 W 2nd Ave #10</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80219</value>
+				</Data>
+				<Data name="Website URL">
+					<value>coloradocider.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Glass of cider equal or lesser value</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0199762,39.7206231,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Colt &amp; Gray</name>
+			<address>1553 Platte St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)477-1447<br>Address: 1553 Platte St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: coltandgray.com<br>2-for-1 Offer: Drinks from a bigger boat]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)477-1447</value>
+				</Data>
+				<Data name="Address">
+					<value>1553 Platte St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>coltandgray.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Drinks from a bigger boat</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.008508,39.7574147,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Concourse</name>
+			<address>10195 E 29th Dr Denver CO 80238</address>
+			<description><![CDATA[Phone #: (720) 550-6934<br>Address: 10195 E 29th Dr<br>City: Denver<br>State: CO<br>Zip Code: 80238<br>Website URL: concoursedenver.com<br>2-for-1 Offer: Specialty Cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 550-6934</value>
+				</Data>
+				<Data name="Address">
+					<value>10195 E 29th Dr</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80238</value>
+				</Data>
+				<Data name="Website URL">
+					<value>concoursedenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Specialty Cocktails</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.8691102,39.7594052,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Crooked Stave Artisan Beer Project Taproom</name>
+			<address>3350 Brighton Blvd Denver CO 8860</address>
+			<description><![CDATA[Phone #: (720)550-8860<br>Address: 3350 Brighton Blvd<br>City: Denver<br>State: CO<br>Zip Code: 8860<br>Website URL: www.crookedstave.com<br>2-for-1 Offer: Any draft $8 or less]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)550-8860</value>
+				</Data>
+				<Data name="Address">
+					<value>3350 Brighton Blvd</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>8860</value>
+				</Data>
+				<Data name="Website URL">
+					<value>www.crookedstave.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any draft $8 or less</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9797577,39.7686109,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>DiFranco&apos;s</name>
+			<address>955 N Lincoln St #D Denver CO 80203</address>
+			<description><![CDATA[Phone #: (720)253-1244<br>Address: 955 N Lincoln St #D<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: difrancos.com<br>2-for-1 Offer: Glass of Red or White Wine or Any Beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)253-1244</value>
+				</Data>
+				<Data name="Address">
+					<value>955 N Lincoln St #D</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>difrancos.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Glass of Red or White Wine or Any Beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9865269,39.7313958,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Dio Mio</name>
+			<address>3264 Larimer St Denver CO 80205</address>
+			<description><![CDATA[Phone #: (303)562-1965<br>Address: 3264 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: diomiopasta.com<br>2-for-1 Offer: House Red or White Wine (By the glass)]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)562-1965</value>
+				</Data>
+				<Data name="Address">
+					<value>3264 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>diomiopasta.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>House Red or White Wine (By the glass)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9768102,39.7647735,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Dunbar Kitchen &amp; Tap House</name>
+			<address>2844 Welton St Denver CO 80205</address>
+			<description><![CDATA[Phone #: (720)630-7641<br>Address: 2844 Welton St<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: dunbarkitchenandtaphouse.com<br>2-for-1 Offer: Any Draft Pint]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)630-7641</value>
+				</Data>
+				<Data name="Address">
+					<value>2844 Welton St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>dunbarkitchenandtaphouse.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Draft Pint</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9758933,39.7562424,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Fiction Beer Company</name>
+			<address>7101 E Colfax Ave Denver CO 80220</address>
+			<description><![CDATA[Phone #: (970)581-6258<br>Address: 7101 E Colfax Ave<br>City: Denver<br>State: CO<br>Zip Code: 80220<br>Website URL: fictionbeer.com<br>2-for-1 Offer: Logic Is Relative, Damned Curious Business, A Beer of Very Little Brain, The Dreamer, Old Bums and Beat Cowboys, or any other Fiction Draft Beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(970)581-6258</value>
+				</Data>
+				<Data name="Address">
+					<value>7101 E Colfax Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80220</value>
+				</Data>
+				<Data name="Website URL">
+					<value>fictionbeer.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Logic Is Relative, Damned Curious Business, A Beer of Very Little Brain, The Dreamer, Old Bums and Beat Cowboys, or any other Fiction Draft Beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9057314,39.7403815,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>FIRE at the ART, a Hotel</name>
+			<address>1201 Broadway Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)572-8000<br>Address: 1201 Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: thearthotel.com/denver-restaurants.html<br>2-for-1 Offer: Liquid Gold]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)572-8000</value>
+				</Data>
+				<Data name="Address">
+					<value>1201 Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>thearthotel.com/denver-restaurants.html</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Liquid Gold</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.987698,39.735522,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Fort Greene Bar</name>
+			<address>321 E 45th Ave Denver CO 80216</address>
+			<description><![CDATA[Phone #: N/A<br>Address: 321 E 45th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80216<br>Website URL: fortgreenedenver.com<br>2-for-1 Offer: Cranes in the Sky]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>N/A</value>
+				</Data>
+				<Data name="Address">
+					<value>321 E 45th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80216</value>
+				</Data>
+				<Data name="Website URL">
+					<value>fortgreenedenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Cranes in the Sky</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9831179,39.7784775,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Great Divide</name>
+			<address>1812 35th Street Denver CO 80216</address>
+			<description><![CDATA[Phone #: (303)867-4828<br>Address: 1812 35th Street<br>City: Denver<br>State: CO<br>Zip Code: 80216<br>Website URL: greatdivide.com<br>2-for-1 Offer: Core beers on draft]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)867-4828</value>
+				</Data>
+				<Data name="Address">
+					<value>1812 35th Street</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80216</value>
+				</Data>
+				<Data name="Website URL">
+					<value>greatdivide.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Core beers on draft</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.97919,39.770259,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Greedy Hamster</name>
+			<address>323 14th St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)623-2818<br>Address: 323 14th St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: thegreedyhamster.com<br>2-for-1 Offer: Draught beer and specialty cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)623-2818</value>
+				</Data>
+				<Data name="Address">
+					<value>323 14th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>thegreedyhamster.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Draught beer and specialty cocktails</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9914505,39.7411553,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Hearth &amp; Dram</name>
+			<address>1801 Wewatta St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)623-0979<br>Address: 1801 Wewatta St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: hearthanddram.com<br>2-for-1 Offer: Bartender's Choice]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)623-0979</value>
+				</Data>
+				<Data name="Address">
+					<value>1801 Wewatta St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>hearthanddram.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Bartender&apos;s Choice</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0002171,39.7554808,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Hudson Hill</name>
+			<address>619 E 13th Ave Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)832-0776<br>Address: 619 E 13th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: hudsonhilldenver.com<br>2-for-1 Offer: Any House Cocktail or Bartender's Daily Special.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)832-0776</value>
+				</Data>
+				<Data name="Address">
+					<value>619 E 13th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>hudsonhilldenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any House Cocktail or Bartender&apos;s Daily Special.</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.979404,39.7370202,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Humboldt: Farm Fish Wine</name>
+			<address>1700 Humbolt St Denver CO 80218</address>
+			<description><![CDATA[Phone #: (303)813-1700<br>Address: 1700 Humbolt St<br>City: Denver<br>State: CO<br>Zip Code: 80218<br>Website URL: humboldtrestaurant.com<br>2-for-1 Offer: Humboldt Featured Wine or Mile High Sunrise]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)813-1700</value>
+				</Data>
+				<Data name="Address">
+					<value>1700 Humbolt St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80218</value>
+				</Data>
+				<Data name="Website URL">
+					<value>humboldtrestaurant.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Humboldt Featured Wine or Mile High Sunrise</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9693406,39.743485,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Illegal Pete&apos;s</name>
+			<address>1530 16th St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)623-2169<br>Address: 1530 16th St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: illegalpetes.com<br>2-for-1 Offer: Pete's Classics, Margaritas & More]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)623-2169</value>
+				</Data>
+				<Data name="Address">
+					<value>1530 16th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>illegalpetes.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Pete&apos;s Classics, Margaritas &amp; More</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9999395,39.7508968,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Illegal Pete&apos;s</name>
+			<address>270 S Broadway Denver CO 80203</address>
+			<description><![CDATA[Phone #: (720)287-5233<br>Address: 270 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: illegalpetes.com<br>2-for-1 Offer: Pete's Classics, Margaritas & More]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)287-5233</value>
+				</Data>
+				<Data name="Address">
+					<value>270 S Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>illegalpetes.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Pete&apos;s Classics, Margaritas &amp; More</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9871027,39.7117505,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Illegal Pete&apos;s</name>
+			<address>1744 E Evans Ave Denver CO 80210</address>
+			<description><![CDATA[Phone #: (720)974-2198<br>Address: 1744 E Evans Ave<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: illegalpetes.com<br>2-for-1 Offer: Pete's Classics, Margaritas & More]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)974-2198</value>
+				</Data>
+				<Data name="Address">
+					<value>1744 E Evans Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>illegalpetes.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Pete&apos;s Classics, Margaritas &amp; More</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9667434,39.6782698,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Illegal Pete&apos;s</name>
+			<address>2001 E Colfax Denver CO 80206</address>
+			<description><![CDATA[Phone #: (720)723-2703<br>Address: 2001 E Colfax<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: illegalpetes.com<br>2-for-1 Offer: Pete's Classics, Margaritas & More]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)723-2703</value>
+				</Data>
+				<Data name="Address">
+					<value>2001 E Colfax</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>illegalpetes.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Pete&apos;s Classics, Margaritas &amp; More</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9632945,39.7402651,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Laws Whiskey House</name>
+			<address>1420 S Acoma St Denver CO 80223</address>
+			<description><![CDATA[Phone #: (720)570-1420<br>Address: 1420 S Acoma St<br>City: Denver<br>State: CO<br>Zip Code: 80223<br>Website URL: lawswhiskeyhouse.com<br>2-for-1 Offer: Flights]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)570-1420</value>
+				</Data>
+				<Data name="Address">
+					<value>1420 S Acoma St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80223</value>
+				</Data>
+				<Data name="Website URL">
+					<value>lawswhiskeyhouse.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Flights</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9883658,39.6907179,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Leña</name>
+			<address>24 Broadway Denver CO 80203</address>
+			<description><![CDATA[Phone #: (720)550-7267<br>Address: 24 Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: lenadenver.com<br>2-for-1 Offer: House Margarita and Sangria]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)550-7267</value>
+				</Data>
+				<Data name="Address">
+					<value>24 Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>lenadenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>House Margarita and Sangria</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9871129,39.717193,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Little Machine</name>
+			<address>2924 W 20th Ave Denver CO 80211</address>
+			<description><![CDATA[Phone #: (303)284-7893<br>Address: 2924 W 20th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: littlemachinebeer.com<br>2-for-1 Offer: Razz Against the Machine® Tart Raspberry Ale, Racerback English Style Pale Ale, Stick-Shift Brown Ale, or seasonal drafts]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)284-7893</value>
+				</Data>
+				<Data name="Address">
+					<value>2924 W 20th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>littlemachinebeer.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Razz Against the Machine® Tart Raspberry Ale, Racerback English Style Pale Ale, Stick-Shift Brown Ale, or seasonal drafts</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.024345,39.747316,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Lola Coastal Mexican</name>
+			<address>1575 Boulder St Denver CO 80211</address>
+			<description><![CDATA[Phone #: (720)570-8686<br>Address: 1575 Boulder St<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: loladenver.com<br>2-for-1 Offer: Fuego Verde Margaritas]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)570-8686</value>
+				</Data>
+				<Data name="Address">
+					<value>1575 Boulder St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>loladenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Fuego Verde Margaritas</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0109061,39.7592363,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Los Chingones</name>
+			<address>2461 Larimer St Denver CO 80205</address>
+			<description><![CDATA[Phone #: (303)295-0686<br>Address: 2461 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: loschingonesmexican.com<br>2-for-1 Offer: Your choice of the T & T or a craft draft beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)295-0686</value>
+				</Data>
+				<Data name="Address">
+					<value>2461 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>loschingonesmexican.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Your choice of the T &amp; T or a craft draft beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9869442,39.7575229,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Luca</name>
+			<address>711 Grant St Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)832-6600<br>Address: 711 Grant St<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: lucadenver.com<br>2-for-1 Offer: Campari Spritz or Slow and Low Old Fashioned]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)832-6600</value>
+				</Data>
+				<Data name="Address">
+					<value>711 Grant St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>lucadenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Campari Spritz or Slow and Low Old Fashioned</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9839034,39.7275494,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Lucky Pie Pizza &amp; Taphouse</name>
+			<address>1610 16th St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)825-1021<br>Address: 1610 16th St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: luckypiepizza.com/<br>2-for-1 Offer: Luckytail! 1 or more house infusions created into a special Lucky Pie cocktail, known as the Luckytail]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)825-1021</value>
+				</Data>
+				<Data name="Address">
+					<value>1610 16th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>luckypiepizza.com/</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Luckytail! 1 or more house infusions created into a special Lucky Pie cocktail, known as the Luckytail</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0005432,39.7512096,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Max&apos;s Wine Dive</name>
+			<address>696 Sherman St Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)593-2554<br>Address: 696 Sherman St<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: maxswinedive.com<br>2-for-1 Offer: Glass of Wine or Draft Beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)593-2554</value>
+				</Data>
+				<Data name="Address">
+					<value>696 Sherman St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>maxswinedive.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Glass of Wine or Draft Beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9844994,39.7270927,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>MCA Cafe &amp; Bar</name>
+			<address>1485 Delgany St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)298-7554<br>Address: 1485 Delgany St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: mcadenver.org<br>2-for-1 Offer: Beer & Wine]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)298-7554</value>
+				</Data>
+				<Data name="Address">
+					<value>1485 Delgany St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>mcadenver.org</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Beer &amp; Wine</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.004277,39.7523268,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Milk &amp; Honey Bar Kitchen</name>
+			<address>1414 Larimer St Denver CO 80219</address>
+			<description><![CDATA[Phone #: (303)997-7590<br>Address: 1414 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80219<br>Website URL: milkandhoneydenver.com<br>2-for-1 Offer: Lavender Lemonade - Specialty, Signature Cocktail]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)997-7590</value>
+				</Data>
+				<Data name="Address">
+					<value>1414 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80219</value>
+				</Data>
+				<Data name="Website URL">
+					<value>milkandhoneydenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Lavender Lemonade - Specialty, Signature Cocktail</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9993482,39.7476878,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Molecule Effect</name>
+			<address>1201 Santa Fe Dr #A Denver CO 80204</address>
+			<description><![CDATA[Phone #: (720)502-6966<br>Address: 1201 Santa Fe Dr #A<br>City: Denver<br>State: CO<br>Zip Code: 80204<br>Website URL: themoleculeeffect.com<br>2-for-1 Offer: Two for one from our Mixed Chemistry Cocktail list]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)502-6966</value>
+				</Data>
+				<Data name="Address">
+					<value>1201 Santa Fe Dr #A</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80204</value>
+				</Data>
+				<Data name="Website URL">
+					<value>themoleculeeffect.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Two for one from our Mixed Chemistry Cocktail list</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9989452,39.7354548,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Olive &amp; Finch</name>
+			<address>3390 E 1st Ave Denver CO 80206</address>
+			<description><![CDATA[Phone #: (303)955-0455<br>Address: 3390 E 1st Ave<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: oliveandfincheatery.com<br>2-for-1 Offer: Your choice of The Finch Mule or a glass of sangria or house wine]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)955-0455</value>
+				</Data>
+				<Data name="Address">
+					<value>3390 E 1st Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>oliveandfincheatery.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Your choice of The Finch Mule or a glass of sangria or house wine</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9474315,39.7178128,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Olive &amp; Finch</name>
+			<address>1552 E 17th Ave Denver CO 80218</address>
+			<description><![CDATA[Phone #: (303) 832-8663<br>Address: 1552 E 17th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80218<br>Website URL: oliveandfincheatery.com<br>2-for-1 Offer: Your choice of The Finch Mule or a glass of sangria or house wine]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303) 832-8663</value>
+				</Data>
+				<Data name="Address">
+					<value>1552 E 17th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80218</value>
+				</Data>
+				<Data name="Website URL">
+					<value>oliveandfincheatery.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Your choice of The Finch Mule or a glass of sangria or house wine</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.968776,39.7430037,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Our Mutual Friend Brewing Co.</name>
+			<address>2810 Larimer St Denver CO 80205</address>
+			<description><![CDATA[Phone #: (303)296-3441<br>Address: 2810 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: omfbeer.com<br>2-for-1 Offer: Any Draft Pint]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)296-3441</value>
+				</Data>
+				<Data name="Address">
+					<value>2810 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>omfbeer.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Draft Pint</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9824159,39.7604819,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Park Burger</name>
+			<address>1890 S. Pearl St. Denver CO 80210</address>
+			<description><![CDATA[Phone #: 720.242.9951<br>Address: 1890 S. Pearl St.<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: parkburger.com<br>2-for-1 Offer: Any beer on draft]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>720.242.9951</value>
+				</Data>
+				<Data name="Address">
+					<value>1890 S. Pearl St.</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>parkburger.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any beer on draft</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9802604,39.6823194,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Park Burger</name>
+			<address>2643 W. 32nd Ave. Denver CO 80211</address>
+			<description><![CDATA[Phone #: 303.862.8461<br>Address: 2643 W. 32nd Ave.<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: parkburger.com<br>2-for-1 Offer: Any beer on draft]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>303.862.8461</value>
+				</Data>
+				<Data name="Address">
+					<value>2643 W. 32nd Ave.</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>parkburger.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any beer on draft</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0200371,39.762228,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Park Burger</name>
+			<address>211 S. Holly St. Denver CO 80246</address>
+			<description><![CDATA[Phone #: 303.942.0145<br>Address: 211 S. Holly St.<br>City: Denver<br>State: CO<br>Zip Code: 80246<br>Website URL: parkburger.com<br>2-for-1 Offer: Any beer on draft]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>303.942.0145</value>
+				</Data>
+				<Data name="Address">
+					<value>211 S. Holly St.</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80246</value>
+				</Data>
+				<Data name="Website URL">
+					<value>parkburger.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any beer on draft</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9225069,39.7128364,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Park Burger</name>
+			<address>2615 Walnut St. Denver CO 80205</address>
+			<description><![CDATA[Phone #: 720.381.0126<br>Address: 2615 Walnut St.<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: parkburger.com<br>2-for-1 Offer: Any beer on draft]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>720.381.0126</value>
+				</Data>
+				<Data name="Address">
+					<value>2615 Walnut St.</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>parkburger.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any beer on draft</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.986211,39.7596096,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Post Chicken &amp; Beer</name>
+			<address>2200 Broadway Denver CO 80210</address>
+			<description><![CDATA[Phone #: (720)466-5699<br>Address: 2200 Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: postchickenandbeer.com/rosedale<br>2-for-1 Offer: Gov’t Mule, Margarita or Manhattan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)466-5699</value>
+				</Data>
+				<Data name="Address">
+					<value>2200 Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>postchickenandbeer.com/rosedale</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Gov’t Mule, Margarita or Manhattan</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9875183,39.676504,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Postino Wine Café</name>
+			<address>2715 17th St Denver CO 80211</address>
+			<description><![CDATA[Phone #: (303)433-6363<br>Address: 2715 17th St<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: postinowinecafe.com<br>2-for-1 Offer: A glass of Costa Rosé or Victory Prima Pilsner]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)433-6363</value>
+				</Data>
+				<Data name="Address">
+					<value>2715 17th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>postinowinecafe.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>A glass of Costa Rosé or Victory Prima Pilsner</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.010464,39.761515,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Prohibition</name>
+			<address>504 E Colfax Ave Denver CO 80203</address>
+			<description><![CDATA[Phone #: (720)550-7267<br>Address: 504 E Colfax Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: prohibitiondenver.com<br>2-for-1 Offer: Draft Beer excluding Rotator]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)550-7267</value>
+				</Data>
+				<Data name="Address">
+					<value>504 E Colfax Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>prohibitiondenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Draft Beer excluding Rotator</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9808968,39.7398669,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Que Bueno Mexican Grille</name>
+			<address>8500 Peña Blvd Concourse B Denver CO 80249</address>
+			<description><![CDATA[Phone #: (303)342-3372<br>Address: 8500 Peña Blvd Concourse B<br>City: Denver<br>State: CO<br>Zip Code: 80249<br>Website URL: missionyogurt.com<br>2-for-1 Offer: Any Margarita or Specialty Cocktail]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)342-3372</value>
+				</Data>
+				<Data name="Address">
+					<value>8500 Peña Blvd Concourse B</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80249</value>
+				</Data>
+				<Data name="Website URL">
+					<value>missionyogurt.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Margarita or Specialty Cocktail</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.6739062,39.8501279,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Que Bueno Suerte!</name>
+			<address>1518 S Pearl St Denver CO 80210</address>
+			<description><![CDATA[Phone #: (720)642-7322<br>Address: 1518 S Pearl St<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: qbsuerte.com<br>2-for-1 Offer: Any Margarita]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)642-7322</value>
+				</Data>
+				<Data name="Address">
+					<value>1518 S Pearl St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>qbsuerte.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Margarita</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9801214,39.6890533,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Ratio Beerworks</name>
+			<address>2920 Larimer St Denver CO 80205</address>
+			<description><![CDATA[Phone #: (303)997-8288<br>Address: 2920 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80205<br>Website URL: ratiobeerworks.com<br>2-for-1 Offer: Buy one beer receive a Ratio flagship beer free (Domestica, Dear You, Repeater, Antidote, Rented World, Hold Steady)]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)997-8288</value>
+				</Data>
+				<Data name="Address">
+					<value>2920 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80205</value>
+				</Data>
+				<Data name="Website URL">
+					<value>ratiobeerworks.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Buy one beer receive a Ratio flagship beer free (Domestica, Dear You, Repeater, Antidote, Rented World, Hold Steady)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9810734,39.7615073,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Rebel</name>
+			<address>3763 Wynkoop St Denver CO 80216</address>
+			<description><![CDATA[Phone #: (303)297-3902<br>Address: 3763 Wynkoop St<br>City: Denver<br>State: CO<br>Zip Code: 80216<br>Website URL: Rebelrestaurantdenver.com<br>2-for-1 Offer: Grey Day at Punalu'u]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)297-3902</value>
+				</Data>
+				<Data name="Address">
+					<value>3763 Wynkoop St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80216</value>
+				</Data>
+				<Data name="Website URL">
+					<value>Rebelrestaurantdenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Grey Day at Punalu&apos;u</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9748782,39.7723043,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Rhein Haus</name>
+			<address>1415 Market St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)800-2652<br>Address: 1415 Market St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: rheinhausdenver.com<br>2-for-1 Offer: 1/2 Liter Rhein Haus Lager get 1/2 Liter free]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)800-2652</value>
+				</Data>
+				<Data name="Address">
+					<value>1415 Market St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>rheinhausdenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>1/2 Liter Rhein Haus Lager get 1/2 Liter free</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0006258,39.7484365,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Rosedale</name>
+			<address>1135 E Evans Ave Denver CO 80210</address>
+			<description><![CDATA[Phone #: (720)961-0320<br>Address: 1135 E Evans Ave<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: therosedaledenver.com<br>2-for-1 Offer: Specialty Cocktails or Draft Beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)961-0320</value>
+				</Data>
+				<Data name="Address">
+					<value>1135 E Evans Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80210</value>
+				</Data>
+				<Data name="Website URL">
+					<value>therosedaledenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Specialty Cocktails or Draft Beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9737782,39.6786835,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Russell&apos;s Smokehouse</name>
+			<address>1422 Larimer St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (720)524-8050<br>Address: 1422 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: russellssmokehouse.com<br>2-for-1 Offer: Gold Rush or French 75]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)524-8050</value>
+				</Data>
+				<Data name="Address">
+					<value>1422 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>russellssmokehouse.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Gold Rush or French 75</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9991213,39.7475662,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Sarto&apos;s</name>
+			<address>2900 W 25th Ave Denver CO 80211</address>
+			<description><![CDATA[Phone #: (303)455-1400<br>Address: 2900 W 25th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: sartos.com<br>2-for-1 Offer: 2-for-1 Aperitivo Hour Drinks<br>Draft Beer | Glass of Wine | Spritz | Seasonal Cocktail<br>Mix and match]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)455-1400</value>
+				</Data>
+				<Data name="Address">
+					<value>2900 W 25th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>sartos.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>2-for-1 Aperitivo Hour Drinks
+Draft Beer | Glass of Wine | Spritz | Seasonal Cocktail
+Mix and match</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.023839,39.7534272,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Satchels on 6th</name>
+			<address>1710 E 6th Ave Denver CO 80219</address>
+			<description><![CDATA[Phone #: (303)399-2560<br>Address: 1710 E 6th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80219<br>Website URL: Satchelson6th.com<br>2-for-1 Offer: Contratto Spritz or Cocktail of the Day]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)399-2560</value>
+				</Data>
+				<Data name="Address">
+					<value>1710 E 6th Ave</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80219</value>
+				</Data>
+				<Data name="Website URL">
+					<value>Satchelson6th.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Contratto Spritz or Cocktail of the Day</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.966729,39.7254345,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Scratch Burrito and Happy Tap</name>
+			<address>4262 Lowell Blvd Denver CO 80211</address>
+			<description><![CDATA[Phone #: 303)477-3000<br>Address: 4262 Lowell Blvd<br>City: Denver<br>State: CO<br>Zip Code: 80211<br>Website URL: scratchburrito.com<br>2-for-1 Offer: House Cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>303)477-3000</value>
+				</Data>
+				<Data name="Address">
+					<value>4262 Lowell Blvd</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80211</value>
+				</Data>
+				<Data name="Website URL">
+					<value>scratchburrito.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>House Cocktails</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0341396,39.7761024,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Ste. Ellie</name>
+			<address>1500 Wynkoop St #120 Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)477-1447<br>Address: 1500 Wynkoop St #120<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: saintellie.com<br>2-for-1 Offer: Neo-Classics]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)477-1447</value>
+				</Data>
+				<Data name="Address">
+					<value>1500 Wynkoop St #120</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>saintellie.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Neo-Classics</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0016428,39.7509384,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Stem Ciders</name>
+			<address>2811 Walnut St #150 Denver CO 80206</address>
+			<description><![CDATA[Phone #: (720)443-3007<br>Address: 2811 Walnut St #150<br>City: Denver<br>State: CO<br>Zip Code: 80206<br>Website URL: stemciders.com<br>2-for-1 Offer: Stem Ciders Cider Pour]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)443-3007</value>
+				</Data>
+				<Data name="Address">
+					<value>2811 Walnut St #150</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80206</value>
+				</Data>
+				<Data name="Website URL">
+					<value>stemciders.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Stem Ciders Cider Pour</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9837842,39.7615244,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>The Squeaky Bean</name>
+			<address>1500 Wynkoop St. Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)623-2665<br>Address: 1500 Wynkoop St.<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: thesqueakybean.com<br>2-for-1 Offer: Specialty passport cocktail or draft beer]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)623-2665</value>
+				</Data>
+				<Data name="Address">
+					<value>1500 Wynkoop St.</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>thesqueakybean.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Specialty passport cocktail or draft beer</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0016428,39.7509384,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>TAG</name>
+			<address>1441 Larimer St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (303)996-998<br>Address: 1441 Larimer St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: tag-restaurant.com<br>2-for-1 Offer: Your choice the Black Rose cocktail or house wine]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)996-998</value>
+				</Data>
+				<Data name="Address">
+					<value>1441 Larimer St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>tag-restaurant.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Your choice the Black Rose cocktail or house wine</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.999323,39.7481273,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Telegraph Bistro &amp; Bar</name>
+			<address>295 S Pennsylvania St Denver CO 80212</address>
+			<description><![CDATA[Phone #: (720)440-9846<br>Address: 295 S Pennsylvania St<br>City: Denver<br>State: CO<br>Zip Code: 80212<br>Website URL: telegraphdenver.com<br>2-for-1 Offer: Sangria, Basil Rickey, Paloma]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)440-9846</value>
+				</Data>
+				<Data name="Address">
+					<value>295 S Pennsylvania St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80212</value>
+				</Data>
+				<Data name="Website URL">
+					<value>telegraphdenver.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Sangria, Basil Rickey, Paloma</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9817471,39.7112612,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Teller Bar</name>
+			<address>918 17th St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (720)726-4800<br>Address: 918 17th St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: rangedowntown.com<br>2-for-1 Offer: Colorado beers, Colorado spirits and House wines.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720)726-4800</value>
+				</Data>
+				<Data name="Address">
+					<value>918 17th St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+					<value>rangedowntown.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Colorado beers, Colorado spirits and House wines.</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9932997,39.7474149,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Timberline Steaks &amp; Grille - Concourse C</name>
+			<address>8500 Peña Blvd Denver CO 80249</address>
+			<description><![CDATA[Phone #: (303)342-6670<br>Address: 8500 Peña Blvd<br>City: Denver<br>State: CO<br>Zip Code: 80249<br>Website URL: missionyogurt.com<br>2-for-1 Offer: Any Beer, Wine or Specialty Cocktails]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)342-6670</value>
+				</Data>
+				<Data name="Address">
+					<value>8500 Peña Blvd</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80249</value>
+				</Data>
+				<Data name="Website URL">
+					<value>missionyogurt.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Beer, Wine or Specialty Cocktails</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-104.6739062,39.8501279,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TRVE Brewing Company</name>
+			<address>227 Broadway Denver CO 80203</address>
+			<description><![CDATA[Phone #: (303)351-1021<br>Address: 227 Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: trvebrewing.com<br>2-for-1 Offer: Any Draft Pint]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(303)351-1021</value>
+				</Data>
+				<Data name="Address">
+					<value>227 Broadway</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80203</value>
+				</Data>
+				<Data name="Website URL">
+					<value>trvebrewing.com</value>
+				</Data>
+				<Data name="2-for-1 Offer">
+					<value>Any Draft Pint</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-104.9879957,39.719947,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Upstairs Circus</name>
+			<address>1500 Wynkoop St Denver CO 80202</address>
+			<description><![CDATA[Phone #: (720) 722-2105<br>Address: 1500 Wynkoop St<br>City: Denver<br>State: CO<br>Zip Code: 80202<br>Website URL: <br>2-for-1 Offer:]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="Phone #">
+					<value>(720) 722-2105</value>
+				</Data>
+				<Data name="Address">
+					<value>1500 Wynkoop St</value>
+				</Data>
+				<Data name="City">
+					<value>Denver</value>
+				</Data>
+				<Data name="State">
+					<value>CO</value>
+				</Data>
+				<Data name="Zip Code">
+					<value>80202</value>
+				</Data>
+				<Data name="Website URL">
+				</Data>
+				<Data name="2-for-1 Offer">
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-105.0016428,39.7509384,0</coordinates>
+				</Point>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
