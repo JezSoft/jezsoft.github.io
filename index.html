@@ -33,11 +33,8 @@
 				
 				
 			  }
-			  
-			  var myParser = new geoXML3.parser({map: map});
-				myParser.parse('https://JezSoft.github.io/denverNeighborhoodsFixed.kml');
-				alert("done");
 			});
+			
 		});
   
 		var map;
@@ -56,6 +53,13 @@
 				url: 'https://JezSoft.github.io/2017PassportExport.kml',
 				map: map
 			});
+			
+			var myParser = new geoXML3.parser({map: map, afterParse: addMapData});
+			var parsed = myParser.parse('https://JezSoft.github.io/denverNeighborhoodsFixed.kml');
+		}
+		
+		function addMapData(data){
+			alert("Done");
 		}
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSXYNkU1ea1fq9LK-EC4Bp6GJbV-Dm-OI&callback=initMap"
