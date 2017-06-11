@@ -23,38 +23,18 @@
 	<div id="map">
 	</div>
   <script>
-		$(document).ready(function(){
-			 $.ajax({
+		$(document).ready(function(){			
+			$.ajax({
 			  type: "GET",
 			  dataType: "xml",
-			  url: "https://JezSoft.github.io/denverNeighborhoods.xml",
+			  url: "https://JezSoft.github.io/2017PassportExport.xml",
 			  success: function(xml){	
 				var polyCoords = [];
-				$(xml).find("Folder Placemark MultiGeometry Polygon outerBoundaryIs LinearRing").each(function(index){
-					
-					var coordinates = $(this).find("coordinates").text().split(" ");
-					$(coordinates).each(function(index, val){
-						var coordSplit = val.split(",");
-						
-						if (coordSplit.length < 3)
-							return true;
-						
-						var coord = Object();
-						coord.lat = parseFloat(coordSplit[0].trim());
-						coord.lng = parseFloat(coordSplit[1].trim());
-						polyCoords.push(coord);
-					})
+				$(xml).find("Placemark").each(function(index){
+					var coords = $(this).find("coordinates").text();
+					var coordSplit = val.split(",");
 				});
-				
-				var bermudaTriangle = new google.maps.Polygon({
-				  paths: polyCoords,
-				  strokeColor: '#FF0000',
-				  strokeOpacity: 0.8,
-				  strokeWeight: 2,
-				  fillColor: '#FF0000',
-				  fillOpacity: 0.35
-				});
-				bermudaTriangle.setMap(map);
+
 				
 			  },
 			  error: function (status, error){
