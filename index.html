@@ -28,10 +28,34 @@
 			  type: "GET",
 			  dataType: "xml",
 			  url: "https://JezSoft.github.io/denverNeighborhoods.xml",
-			  success: function(xml){
-				$(xml).find('Folder Placemark MultiGeometry Polygon outerBoundaryIs LinearRing').each(function(index){
-					alert($(this).find('coordinates').text());
+			  success: function(xml){	
+				var polyCoords = [];
+				$(xml).find("Folder Placemark MultiGeometry Polygon outerBoundaryIs LinearRing").each(function(index){
+					
+					var coordinates = $(this).find("coordinates").text().split(" ");
+					$(coordinates).each(function(index, val){
+						var coordSplit = val.split(",");
+						
+						if (coordSplit.length < 3)
+							return true;
+						
+						var coord = Object();
+						coord.lat = parseFloat(coordSplit[0].trim());
+						coord.lng = parseFloat(coordSplit[1].trim());
+						polyCoords.push(coord);
+					})
 				});
+				
+				var bermudaTriangle = new google.maps.Polygon({
+				  paths: polyCoords,
+				  strokeColor: '#FF0000',
+				  strokeOpacity: 0.8,
+				  strokeWeight: 2,
+				  fillColor: '#FF0000',
+				  fillOpacity: 0.35
+				});
+				bermudaTriangle.setMap(map);
+				
 			  },
 			  error: function (status, error){
 				alert("error");
@@ -47,15 +71,15 @@
 				  zoom: 15
 				});
 			
-			var layerNeigh = new google.maps.KmlLayer({
-				url: 'https://JezSoft.github.io/denverNeighborhoodsFixed.kml',
-				map: map
-			});
+			//var layerNeigh = new google.maps.KmlLayer({
+				//url: 'https://JezSoft.github.io/denverNeighborhoodsFixed.kml',
+				//map: map
+			//});
 			
-			var layerBars = new google.maps.KmlLayer({
-				url: 'https://JezSoft.github.io/2017PassportExport.kml',
-				map: map
-			});
+			//var layerBars = new google.maps.KmlLayer({
+				//url: 'https://JezSoft.github.io/2017PassportExport.kml',
+				//map: map
+			//
 		}
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSXYNkU1ea1fq9LK-EC4Bp6GJbV-Dm-OI&callback=initMap"
