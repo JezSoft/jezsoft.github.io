@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<Placemark>
-			<name>Ace Eat Serve</name>
-			<address>501 E 17th Ave Denver CO 80203</address>
-			<description><![CDATA[Phone #: (303)800-7705<br>Address: 501 E 17th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: aceeatserve.com<br>2-for-1 Offer: Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).<br>Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen]]></description>
+	<Placemark>
+		<name>Ace Eat Serve</name>
+		<address>501 E 17th Ave Denver CO 80203</address>
+		<description><![CDATA[Phone #: (303)800-7705<br>Address: 501 E 17th Ave<br>City: Denver<br>State: CO<br>Zip Code: 80203<br>Website URL: aceeatserve.com<br>2-for-1 Offer: Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).<br>Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen]]></description>
+		<styleUrl>#icon-1899-0288D1</styleUrl>
+		<ExtendedData>
+			<Data name="Phone #">
+				<value>(303)800-7705</value>
+			</Data>
+			<Data name="Address">
+				<value>501 E 17th Ave</value>
+			</Data>
+			<Data name="City">
+				<value>Denver</value>
+			</Data>
+			<Data name="State">
+				<value>CO</value>
+			</Data>
+			<Data name="Zip Code">
+				<value>80203</value>
+			</Data>
+			<Data name="Website URL">
+				<value>aceeatserve.com</value>
+			</Data>
+			<Data name="2-for-1 Offer">
+				<value>Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).
+Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen</value>
+			</Data>
+		</ExtendedData>
+		<MultiGeometry>
+			<Point>
+				<coordinates>-104.9807247,39.7435177,0</coordinates>
+			</Point>
+		</MultiGeometry>
+	</Placemark>
+	<Placemark>
+			<name>Adelitas Cocina y Cantina / Palenque Mezcaleria</name>
+			<address>1294 S Broadway Denver CO 80210</address>
+			<description><![CDATA[Phone #: (303)778-1294<br>Address: 1294 S Broadway<br>City: Denver<br>State: CO<br>Zip Code: 80210<br>Website URL: adelitasdenver.com<br>2-for-1 Offer: the Fortaleza Coin, our staff's favorite margarita. This offer is good at Adelitas Cocina y Cantina AND Palenque Mezcaleria.]]></description>
 			<styleUrl>#icon-1899-0288D1</styleUrl>
 			<ExtendedData>
 				<Data name="Phone #">
-					<value>(303)800-7705</value>
+					<value>(303)778-1294</value>
 				</Data>
 				<Data name="Address">
-					<value>501 E 17th Ave</value>
+					<value>1294 S Broadway</value>
 				</Data>
 				<Data name="City">
 					<value>Denver</value>
@@ -18,19 +53,18 @@
 					<value>CO</value>
 				</Data>
 				<Data name="Zip Code">
-					<value>80203</value>
+					<value>80210</value>
 				</Data>
 				<Data name="Website URL">
-					<value>aceeatserve.com</value>
+					<value>adelitasdenver.com</value>
 				</Data>
 				<Data name="2-for-1 Offer">
-					<value>Ace Highballs - pair your favorite spirit with a house made Ace soda (can provide additional details/choices/examples if necessary).
-Singapore Slushy - the classic Singapore Sling cocktail made with Damrak Gin and served frozen</value>
+					<value>the Fortaleza Coin, our staff&apos;s favorite margarita. This offer is good at Adelitas Cocina y Cantina AND Palenque Mezcaleria.</value>
 				</Data>
 			</ExtendedData>
 			<MultiGeometry>
 				<Point>
-					<coordinates>-104.9807247,39.7435177,0</coordinates>
+					<coordinates>-104.9873992,39.6933122,0</coordinates>
 				</Point>
 			</MultiGeometry>
 		</Placemark>
