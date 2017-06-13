@@ -7,6 +7,24 @@
   <meta name="description" content="The Passport Companion">
   <meta name="author" content="JezSoft">  
   <style>
+	  div{
+		box-sizing: border-box;
+	  }
+		
+	  button{
+		background:none;
+		cursor:pointer;
+		margin:0px;
+		padding:0px;
+		outline : 0;
+		-moz-outline : 0;
+		border : 0
+	  }
+	  
+	  button.selected{
+		background-color:#9da0a5;
+	  }
+		
       #map {
         height: 100%;
 		flex: 1;
@@ -32,6 +50,17 @@
 		color:#000;
 		background-color:#9da0a5;
 	  }
+	  
+	  #menuBar{
+		display:flex;
+		flex:0 0 24px;
+		align-content:flex-end;
+	  }
+	  
+	  #menuBar button, button svg{
+		width:24px;
+		height:24px;
+	  }
 
       html, body {
         height: 100%;
@@ -53,26 +82,48 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-	<div class=fcr>
-		<div id=menu>		
+	<div class="fcr">
+		<div id="menu">
+			<div id="menuBar">
+				<button id="mapFilter">
+					<svg class="svgIcon svgLight svg24">
+						<path fill="#FFF" d="M3,2H21V2H21V4H20.92L15,9.92V22.91L9,16.91V9.91L3.09,4H3V2M11,16.08L13,18.08V9H13.09L18.09,4H5.92L10.92,9H11V16.08Z" />
+					</svg>
+				</button>
+			</div>
 		</div>
-		<div id="map">
-			
+		<div id="map">			
 		</div>
 	</div>	
 	<script>
 		var map;
 		var markers = [];
+		var infoWindow;
 		
 		$(document).ready(function(){
-			$(document).on("click","#menu div",function() {
-				var lat = parseFloat($(this).data("lat"));
-				var lng = parseFloat($(this).data("lng"));
-				var location = {lat: lat, lng: lng};
-				map.setCenter(location);
+			$(document).on("click",".menuItem",function() {
+				if (!$("#mapFilter").hasClass("selected")){
+					var lat = parseFloat($(this).data("lat"));
+					var lng = parseFloat($(this).data("lng"));
+					var location = {lat: lat, lng: lng};
+					map.setCenter(location);
+				}
 				
 				$("#menu div").removeClass("selected");
 				$(this).addClass("selected");
+				
+				selectMarkerByID($(this).data("markerid"));
+			});
+			
+			$(document).on("click","#mapFilter",function() {
+				if ($(this).hasClass("selected")){
+					$(this).removeClass("selected");
+				}
+				else{
+					$(this).addClass("selected");
+				}
+					
+				filterMap();
 			});
 		});
 		
@@ -106,6 +157,7 @@
 			  url: "https://JezSoft.github.io/2017PassportExport.xml",
 			  success: function(xml){	
 				var polyCoords = [];
+				var id = 0;
 				$(xml).find("Placemark").each(function(index){
 					var coords = $(this).find("coordinates").text().split(",");
 					var myLatLng = {lat: parseFloat(coords[1]), lng: parseFloat(coords[0])};
@@ -113,23 +165,31 @@
 					var name = $(this).find("name").text();
 					var infoContent = "<b>" + name + "</b><br>" + $(this).find("description").text();
 					
-					var infowindow = new google.maps.InfoWindow({
-					  content: infoContent
-					});
-					
 					var marker = new google.maps.Marker({
+					  id: id,
 					  position: myLatLng,
 					  map: map,
 					  title: name
 					});
 					
 					marker.addListener('click', function() {
-					  infowindow.open(map, marker);
+					  if (infoWindow) {
+					    infoWindow.close();
+					  }
+					  
+					  infoWindow = new google.maps.InfoWindow({
+					    content: infoContent
+					  });
+					  infoWindow.open(map, marker);
+					
+					  resetMarkerIcons();
+					  marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')					  
 					});
 					
 					markers.push(marker);
 					
-					$("#menu").append('<div data-markerid-"' + marker.closure_uid_930075939 + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '">' + name + '</div>')
+					$("#menu").append('<div class="menuItem" data-markerid="' + id + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '">' + name + '</div>')
+					id++;
 				});				
 			  },
 			  error: function (status, error){
@@ -137,7 +197,67 @@
 			  }
 			});
 		}
-	
+		
+		function resetMarkerIcons(){
+			$(markers).each(function(index){
+				this.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
+			})
+		}
+		
+		function selectMarkerByID(id){
+			$(markers).each(function(index){
+				if (this.get("id") == id){
+					google.maps.event.trigger(this, 'click');
+					return false;
+				}
+			});
+		}
+		
+		function hideMarkerByID(id){
+			$(markers).each(function(index){
+				if (this.get("id") == id){
+					this.setVisible(false);
+					return false;
+				}
+			});
+		}
+		
+		function showMarkerByID(id){
+			$(markers).each(function(index){
+				if (this.get("id") == id){
+					this.setVisible(true);
+					return false;
+				}
+			});
+		}
+		
+		function filterMap(){
+			var bounds = map.getBounds();
+
+			var swPoint = bounds.getSouthWest();
+			var nePoint = bounds.getNorthEast();
+
+			var swLat = swPoint.lat();
+			var swLng = swPoint.lng();
+			var neLat = nePoint.lat();
+			var neLng = nePoint.lng();
+			
+			$(".menuItem").each(function(index){
+				var id = $(this).data("markerid");
+				var lat = parseFloat($(this).data("lat"));
+				var lng = parseFloat($(this).data("lng"));
+				
+				if (lat >= swLat && lat <= neLat && lng >= swLng && lng <= neLng){
+					$(this).show();
+					showMarkerByID(id);
+				}
+				else{
+					$(this).hide();					
+					hideMarkerByID(id);
+				}
+			});
+		}
+		
 		function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 			infoWindow.setPosition(pos);
 			infoWindow.setContent(browserHasGeolocation ?
@@ -151,6 +271,18 @@
 				  center: {lat: 39.751571, lng: -104.990832},
 				  zoom: 15
 				});	
+			
+			map.addListener('dragend', function() {
+				if ($("#mapFilter").hasClass("selected")){
+					filterMap();
+				}
+			 });
+			 
+			 map.addListener('zoom_changed', function() {
+				if ($("#mapFilter").hasClass("selected")){
+					filterMap();
+				}
+			 });
 			
 			loadMarkers();
 		}
