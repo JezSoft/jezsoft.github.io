@@ -274,7 +274,7 @@
 		}
 		
 		function readCookie(){
-			if (!mapLoaded && !pageLoaded){
+			if (!mapLoaded || !pageLoaded){
 				return;
 			}
 		
@@ -284,7 +284,7 @@
 			$(".menuItem").each(function(index){
 				var id = $(this).data("markerid");
 				if (checkedIDs.includes(id)){
-					this.addClass("checked");
+					$(this).addClass("checked");
 				}
 			});
 		}
