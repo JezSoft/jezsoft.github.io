@@ -278,7 +278,7 @@
 				return;
 			}
 		
-			var checkedIDs = document.cookie.split(";")[0].replace("checkedids=");
+			var checkedIDs = document.cookie.replace("checkedids=", "");
 			checkedIDs = JSON.parse(json_str);
 			
 			$(".menuItem").each(function(index){
