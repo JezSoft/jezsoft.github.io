@@ -230,6 +230,7 @@
 					$("#menu").removeClass("checkedFilter");
 				}
 					
+				pageLoaded = true;
 				filterChecked();
 			});
 			
@@ -507,7 +508,8 @@
 				}
 			 });
 			
-			loadMarkers();			
+			loadMarkers();
+			mapLoaded = true;
 			readCookie();
 		}
   </script>
