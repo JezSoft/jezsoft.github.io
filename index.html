@@ -10,8 +10,10 @@
 	  div{
 		box-sizing: border-box;
 	  }
-		
+	  
 	  button{
+		width:24px;
+		height:24px;
 		background:none;
 		cursor:pointer;
 		margin:0px;
@@ -21,8 +23,18 @@
 		border : 0
 	  }
 	  
+	  button svg{
+		width:24px;
+		height:24px;
+		fill:#FFF;
+	  }
+	  
 	  button.selected{
 		background-color:#9da0a5;
+	  }
+		
+	  button.selected svg, .menuItem.selected svg{
+		fill:#000;
 	  }
 		
       #map {
@@ -37,8 +49,7 @@
 		background-color:#686a6d;
 		margin:0px;
 		padding:0px;
-		overflow-y:scroll;
-		overflow-x:hidden;
+		overflow:hidden;
 	  }
 	  
 	  #menu div{
@@ -53,14 +64,60 @@
 	  
 	  #menuBar{
 		display:flex;
-		flex:0 0 24px;
-		align-content:flex-end;
+		padding:3px;
+		flex:0 0 auto;
+		justify-content:flex-end;
 	  }
 	  
-	  #menuBar button, button svg{
-		width:24px;
-		height:24px;
+	  #menuList{
+		display:flex;
+		flex-direction:column;
+		flex:1;
+		overflow-y:scroll;
+		overflow-x:hidden;
 	  }
+	  
+	  .menuItem{
+		display:flex;
+		flex-direction:row;
+		flex:0 0 auto;
+		align-items: center;		
+		border-top: 1px solid #FFF;
+		padding:3px;
+	  }
+	  
+	  #menu.checkedFilter .menuItem.checked, #menu.mapFilter .menuItem.mapFilter{
+		display:none;
+	  }
+	  
+	  .menuItem button{
+		margin-left:auto;
+	  }
+	  
+	  .menuItem .locUnCheck{
+		display:none;
+	  }
+	  
+	  .menuItem.checked .locCheck{
+		display:none;
+	  }
+	  
+	  .menuItem.checked .locUnCheck{
+		display:block;
+	  }
+	  
+	  .menuItem button{
+		align-self:flex-end;
+	  }
+	  
+	  .menuItem label{
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		padding-right:2px;
+	  }
+	  
+	  
 
       html, body {
         height: 100%;
@@ -82,14 +139,46 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <defs>
+            <symbol id="checkBlankIcon" viewBox="0 0 24 24">
+                <path stroke-width="0" fill="none" d="M0 0h24v24H0z" />
+                <path d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </symbol>
+			<symbol id="checkCheckedIcon" viewBox="0 0 24 24">
+                <path stroke-width="0" fill="none" d="M0 0h24v24H0z" />
+                <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z" />
+            </symbol>
+			<symbol id="filterIcon" viewBox="0 0 24 24">
+                <path stroke-width="0" fill="none" d="M0 0h24v24H0z" />
+                <path d="M3,2H21V2H21V4H20.92L15,9.92V22.91L9,16.91V9.91L3.09,4H3V2M11,16.08L13,18.08V9H13.09L18.09,4H5.92L10.92,9H11V16.08Z" />
+            </symbol>
+			<symbol id="gpsIcon" viewBox="0 0 24 24">
+                <path stroke-width="0" fill="none" d="M0 0h24v24H0z" />
+                <path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M3.05,13H1V11H3.05C3.5,6.83 6.83,3.5 11,3.05V1H13V3.05C17.17,3.5 20.5,6.83 20.95,11H23V13H20.95C20.5,17.17 17.17,20.5 13,20.95V23H11V20.95C6.83,20.5 3.5,17.17 3.05,13M12,5A7,7 0 0,0 5,12A7,7 0 0,0 12,19A7,7 0 0,0 19,12A7,7 0 0,0 12,5Z" />
+            </symbol>
+		</defs>
+	</svg>
 	<div class="fcr">
-		<div id="menu">
+		<div id="menu" class="checkedFilter">
 			<div id="menuBar">
-				<button id="mapFilter">
+				<button id="myLocation">
 					<svg class="svgIcon svgLight svg24">
-						<path fill="#FFF" d="M3,2H21V2H21V4H20.92L15,9.92V22.91L9,16.91V9.91L3.09,4H3V2M11,16.08L13,18.08V9H13.09L18.09,4H5.92L10.92,9H11V16.08Z" />
+						<use xlink:href="#gpsIcon"></use>
 					</svg>
 				</button>
+				<button id="checkedFilter">
+					<svg class="svgIcon svgLight svg24">
+						<use xlink:href="#checkCheckedIcon"></use>
+					</svg>
+				</button>
+				<button id="mapFilter">
+					<svg class="svgIcon svgLight svg24">
+						<use xlink:href="#filterIcon"></use>
+					</svg>
+				</button>
+			</div>
+			<div id="menuList">
 			</div>
 		</div>
 		<div id="map">			
@@ -99,6 +188,7 @@
 		var map;
 		var markers = [];
 		var infoWindow;
+		var locMarker;
 		
 		$(document).ready(function(){
 			$(document).on("click",".menuItem",function() {
@@ -118,14 +208,67 @@
 			$(document).on("click","#mapFilter",function() {
 				if ($(this).hasClass("selected")){
 					$(this).removeClass("selected");
+					$("#menu").removeClass("mapFilter");
 				}
 				else{
 					$(this).addClass("selected");
+					$("#menu").addClass("mapFilter");
 				}
 					
 				filterMap();
 			});
+			
+			$(document).on("click","#checkedFilter",function() {
+				if ($(this).hasClass("selected")){
+					$(this).removeClass("selected");
+					$("#menu").addClass("checkedFilter");
+				}
+				else{
+					$(this).addClass("selected");
+					$("#menu").removeClass("checkedFilter");
+				}
+					
+				filterChecked();
+			});
+			
+			$(document).on("click",".locCheck",function(e) {
+				var p = $(this).parent();
+				$(p).addClass("checked");
+					
+				var markerID = $(p).data("markerid");
+				checkMarkerByID(markerID);
+				updateCheckedCookie();
+				e.stopPropagation();
+			});
+			
+			$(document).on("click",".locUnCheck",function(e) {
+				var p = $(this).parent();
+				$(p).removeClass("checked");
+				
+				var markerID = $(p).data("markerid");	
+				unCheckMarkerByID(markerID);
+				updateCheckedCookie();
+				e.stopPropagation();
+			});
+			
+			$(document).on("click","#myLocation",function(e) {
+				getLoacation();
+			});
 		});
+		
+		function updateCheckedCookie(){
+			var checked = [];
+			$(".menuItem").each(function(index){				
+				if ($(this).hasClass("checked")){
+					checked.push($(this).data("markerid"));
+				}
+			});
+			
+			var json_str = JSON.stringify(checked);
+			document.cookie = "checkedids=" + json_str + "expires=Sun, 31 Dec 2017 12:00:00 UTC";
+			var cookie = document.cookie;
+			alert(cookie);
+		}
 		
 		function getLoacation(){
 			if (navigator.geolocation) {
@@ -137,15 +280,31 @@
 					
 					var infoWindow = new google.maps.InfoWindow;
 
-					infoWindow.setPosition(pos);
-					infoWindow.setContent('Location found.');
-					infoWindow.open(map);
+					infoWindow.setPosition(pos);					
 					map.setCenter(pos);
+					
+					if (locMarker){
+						locMarker.setMap(null);
+					}
+					
+					locMarker = new google.maps.Marker({
+						position: pos,
+						clickable: false,
+						icon: new google.maps.MarkerImage('https://maps.gstatic.com/mapfiles/mobile/mobileimgs2.png',
+																		new google.maps.Size(22,22),
+																		new google.maps.Point(0,18),
+																		new google.maps.Point(11,11)),
+						shadow: null,								
+						map:map
+					});
+					
+					if ($("#mapFilter").hasClass("selected")){
+						filterMap();
+					}
 				}, function() {
 					handleLocationError(true, infoWindow, map.getCenter());
 				  });
 			} else {
-			  // Browser doesn't support Geolocation
 			  handleLocationError(false, infoWindow, map.getCenter());
 			}
 		}
@@ -169,7 +328,8 @@
 					  id: id,
 					  position: myLatLng,
 					  map: map,
-					  title: name
+					  title: name,
+					  icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
 					});
 					
 					marker.addListener('click', function() {
@@ -180,15 +340,23 @@
 					  infoWindow = new google.maps.InfoWindow({
 					    content: infoContent
 					  });
-					  infoWindow.open(map, marker);
-					
-					  resetMarkerIcons();
-					  marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')					  
+					  infoWindow.open(map, marker);				  
 					});
 					
 					markers.push(marker);
 					
-					$("#menu").append('<div class="menuItem" data-markerid="' + id + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '">' + name + '</div>')
+					$("#menuList").append('<div class="menuItem" data-markerid="' + id + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '"><label>' + name + '</label>' +
+							'<button class="locCheck">' +
+								'<svg>' +
+									'<use xlink:href="#checkBlankIcon"></use>' +								
+								'</svg>' +
+							'</button>' +
+							'<button class="locUnCheck">' +
+								'<svg>' +
+									'<use xlink:href="#checkCheckedIcon"></use>' +								
+								'</svg>' +
+							'</button>' +
+						'</div>')
 					id++;
 				});				
 			  },
@@ -222,6 +390,27 @@
 			});
 		}
 		
+		function checkMarkerByID(id){
+			$(markers).each(function(index){
+				if (this.get("id") == id){
+					this.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
+					if (!$("#checkedFilter").hasClass("selected")){
+						this.setVisible(false);
+					}
+					return false;
+				}
+			});
+		}
+		
+		function unCheckMarkerByID(id){
+			$(markers).each(function(index){
+				if (this.get("id") == id){
+					this.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
+					return false;
+				}
+			});
+		}
+		
 		function showMarkerByID(id){
 			$(markers).each(function(index){
 				if (this.get("id") == id){
@@ -248,12 +437,22 @@
 				var lng = parseFloat($(this).data("lng"));
 				
 				if (lat >= swLat && lat <= neLat && lng >= swLng && lng <= neLng){
-					$(this).show();
-					showMarkerByID(id);
+					$(this).removeClass("mapFilter");
+				}
+				else{					
+					$(this).addClass("mapFilter");
+				}
+			});
+		}
+		
+		function filterChecked(){
+			$(".menuItem").each(function(index){
+				var id = $(this).data("markerid");
+				if ($(this).hasClass("checked") && $("#menu").hasClass("checkedFilter")){
+					hideMarkerByID(id);
 				}
 				else{
-					$(this).hide();					
-					hideMarkerByID(id);
+					showMarkerByID(id);
 				}
 			});
 		}
@@ -271,6 +470,12 @@
 				  center: {lat: 39.751571, lng: -104.990832},
 				  zoom: 15
 				});	
+			
+			map.addListener('click', function() {
+				if (infoWindow) {
+					    infoWindow.close();
+				}
+			 });
 			
 			map.addListener('dragend', function() {
 				if ($("#mapFilter").hasClass("selected")){
