@@ -274,7 +274,7 @@
 		}
 		
 		function readCookie(){
-			if (!mapLoaded || !pageLoaded){
+			if (!mapLoaded || !pageLoaded || !document.cookie){
 				return;
 			}
 		
