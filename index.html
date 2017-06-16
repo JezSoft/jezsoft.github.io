@@ -279,7 +279,7 @@
 			}
 		
 			var checkedIDs = document.cookie.replace("checkedids=", "");
-			checkedIDs = JSON.parse(json_str);
+			checkedIDs = JSON.parse(checkedIDs);
 			
 			$(".menuItem").each(function(index){
 				var id = $(this).data("markerid");
