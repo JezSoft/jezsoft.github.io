@@ -189,6 +189,8 @@
 		var markers = [];
 		var infoWindow;
 		var locMarker;
+		var mapLoaded = false;
+		var pageLoaded = false;
 		
 		$(document).ready(function(){
 			$(document).on("click",".menuItem",function() {
@@ -254,6 +256,8 @@
 			$(document).on("click","#myLocation",function(e) {
 				getLoacation();
 			});
+			
+			readCookie();
 		});
 		
 		function updateCheckedCookie(){
@@ -265,9 +269,23 @@
 			});
 			
 			var json_str = JSON.stringify(checked);
-			document.cookie = "checkedids=" + json_str + "expires=Sun, 31 Dec 2017 12:00:00 UTC";
-			var cookie = document.cookie;
-			alert(cookie);
+			document.cookie = "checkedids=" + json_str + "; expires=Sun, 31 Dec 2017 12:00:00 UTC";
+		}
+		
+		function readCookie(){
+			if (!mapLoaded && !pageLoaded){
+				return;
+			}
+		
+			var checkedIDs = document.cookie.split(";")[0].replace("checkedids=");
+			checkedIDs = JSON.parse(json_str);
+			
+			$(".menuItem").each(function(index){
+				var id = $(this).data("markerid");
+				if (checkedIDs.includes(id)){
+					this.addClass("checked");
+				}
+			});
 		}
 		
 		function getLoacation(){
@@ -489,7 +507,8 @@
 				}
 			 });
 			
-			loadMarkers();
+			loadMarkers();			
+			readCookie();
 		}
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSXYNkU1ea1fq9LK-EC4Bp6GJbV-Dm-OI&callback=initMap"
