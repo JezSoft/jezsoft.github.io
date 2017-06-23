@@ -13,11 +13,11 @@
                 flex-direction:column
             }
             #menu {
-                flex:1;
+                flex:1 !important; 
                 width:100%;
             }
             #map{
-                flex:1;                
+                flex:1;               
             }
             
             .menuItem{
@@ -25,13 +25,13 @@
             }
             
             #menu button{
-                width:50px;
-                height:50px;
+                width:45px;
+                height:45px;
             }
             
             #menu button svg{
-                width:50px;
-                height:50px;
+                width:45px;
+                height:45px;
             }
             
             .menuItem label{
@@ -83,6 +83,7 @@
         
         #menu{
             display:flex;
+            flex:0 0 300px;
             flex-direction:column;            
             background-color:#686a6d;
             margin:0px;
@@ -103,7 +104,7 @@
         #menuBar{
             background-color:#000;
             display:flex;
-            padding:3px;
+            padding:0;
             flex:0 0 auto;
             justify-content:flex-end;
         }
@@ -206,14 +207,14 @@
         </defs>
     </svg>
     <div class="fc">
-        <div id="menu" class="checkedFilter noSelect">
+        <div id="menu" class="noSelect">
             <div id="menuBar">
                 <button id="myLocation">
                     <svg class="svgIcon svgLight svg24">
                         <use xlink:href="#gpsIcon"></use>
                     </svg>
                 </button>
-                <button id="checkedFilter">
+                <button id="checkedFilter" class="selected">
                     <svg class="svgIcon svgLight svg24">
                         <use xlink:href="#checkCheckedIcon"></use>
                     </svg>
@@ -250,7 +251,7 @@
                 $("#menu div").removeClass("selected");
                 $(this).addClass("selected");
                 
-                selectMarkerByID($(this).data("markerid"));
+                selectMarkerByID($(this).attr("id").replace("menuItem", ""));
             });
             
             $(document).on("click","#mapFilter",function() {
@@ -283,7 +284,7 @@
                 var p = $(this).parent();
                 $(p).addClass("checked");
                     
-                var markerID = $(p).data("markerid");
+                var markerID = parseInt($(p).attr("id").replace("menuItem", ""));
                 checkMarkerByID(markerID);
                 updateCheckedCookie();
                 e.stopPropagation();
@@ -293,7 +294,7 @@
                 var p = $(this).parent();
                 $(p).removeClass("checked");
                 
-                var markerID = $(p).data("markerid");   
+                var markerID = parseInt($(p).attr("id").replace("menuItem", ""));   
                 unCheckMarkerByID(markerID);
                 updateCheckedCookie();
                 e.stopPropagation();
@@ -311,7 +312,7 @@
             var checked = [];
             $(".menuItem").each(function(index){                
                 if ($(this).hasClass("checked")){
-                    checked.push($(this).data("markerid"));
+                    checked.push(parseInt($(this).attr("id").replace("menuItem", "")));
                 }
             });
             
@@ -406,12 +407,20 @@
                       infoWindow = new google.maps.InfoWindow({
                         content: infoContent
                       });
-                      infoWindow.open(map, marker);               
+                      infoWindow.open(map, marker);   
+                        $("#menu div").removeClass("selected");
+                        $(".menuItem").each(function(index){
+                            var markerID = parseInt($(this).attr("id").replace("menuItem", ""));
+                            if (markerID == marker.id){
+                                $(this).addClass("selected");
+                                document.getElementById("menuItem" + markerID).scrollIntoView();
+                            }
+                        })
                     });
                     
                     markers.push(marker);
                     
-                    $("#menuList").append('<div class="menuItem ' + checked + '" data-markerid="' + id + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '"><label>' + name + '</label>' +
+                    $("#menuList").append('<div class="menuItem ' + checked + '" id="menuItem' + id + '" data-lat="' + parseFloat(coords[1]) + '" data-lng="' + parseFloat(coords[0]) + '"><label>' + name + '</label>' +
                             '<button class="locCheck">' +
                                 '<svg>' +
                                     '<use xlink:href="#checkBlankIcon"></use>' +                                
@@ -486,6 +495,10 @@
             });
         }
         
+        function selectMenuItemByID(id){
+            
+        }
+        
         function filterMap(){
             var bounds = map.getBounds();
 
@@ -498,7 +511,7 @@
             var neLng = nePoint.lng();
             
             $(".menuItem").each(function(index){
-                var id = $(this).data("markerid");
+                var id = $(this).attr("id").replace("menuItem", "");
                 var lat = parseFloat($(this).data("lat"));
                 var lng = parseFloat($(this).data("lng"));
                 
@@ -513,7 +526,7 @@
         
         function filterChecked(){
             $(".menuItem").each(function(index){
-                var id = $(this).data("markerid");
+                var id = $(this).attr("id").replace("menuItem", "");
                 if ($(this).hasClass("checked") && $("#menu").hasClass("checkedFilter")){
                     hideMarkerByID(id);
                 }
